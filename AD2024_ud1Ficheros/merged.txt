@@ -1,0 +1,7 @@
+hola,
+el primer mensaje
+un saludo
+postdata: no me escribas mas
+hola
+mi segundo mensaje
+adios

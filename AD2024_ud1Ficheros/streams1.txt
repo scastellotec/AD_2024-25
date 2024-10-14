@@ -1,0 +1,9 @@
+Primera prueba del bufferedwriter
+Segunda linea de mi archivotercera linea de mi archivo
+a
+
+
+a
+
+
+
