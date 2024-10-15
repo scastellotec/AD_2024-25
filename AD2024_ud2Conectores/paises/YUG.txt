@@ -1,0 +1,8 @@
+Beograd (1204000)
+Novi Sad (179626)
+Niš (175391)
+Priština (155496)
+Kragujevac (147305)
+Podgorica (135000)
+Subotica (100386)
+Prizren (92303)
