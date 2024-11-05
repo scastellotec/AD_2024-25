@@ -14,17 +14,17 @@ public class Main {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
 
-        // Genero un estudiante
-        Estudiante e = new Estudiante();
-        e.setNombre("Sergio");
-        e.setApellido("Castellote");
-        e.setGrupo("DAM2");
-        e.setNotaMedia(5);
-        e.setPendiente(false);
 
         // Lo guardo en la BBDD
         transaction.begin();
-        entityManager.persist(e);
+        Estudiante eSergio = entityManager.find(Estudiante.class, "2");
+        eSergio.setNotaMedia(10);
+        entityManager.remove(eSergio);
+        transaction.commit();
+
+        transaction.begin();
+        eSergio.setNombre("Maria");
+        entityManager.merge(eSergio);
         transaction.commit();
 
         //Cierro recursos
