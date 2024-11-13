@@ -1,0 +1,45 @@
+import Model.Departamento;
+import Model.Empleado;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
+
+public class Main {
+    public static void main(String[] args) {
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-empresa");
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        EntityTransaction transaction = entityManager.getTransaction();
+
+        // Inicio transaccion
+        transaction.begin();
+
+        Empleado e1 = new Empleado();
+        e1.setNombre("Sergio");
+        entityManager.persist(e1);
+
+        Empleado e2 = new Empleado();
+        e2.setNombre("Andres");
+        entityManager.persist(e2);
+
+        Empleado e3 = new Empleado();
+        e3.setNombre("Natalia");
+        entityManager.persist(e3);
+
+        Departamento d1 = new Departamento();
+        d1.setNombre("informatica");
+        entityManager.persist(d1);
+
+        Departamento d2 = new Departamento();
+        d2.setNombre("ventas");
+        entityManager.persist(d2);
+
+        e1.setDept(d1);
+        e2.setDept(d2);
+        e3.setDept(d1);
+
+        // Fin de la transaccion
+        transaction.commit();
+        entityManager.close();
+    }
+}
