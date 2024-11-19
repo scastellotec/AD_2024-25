@@ -3,6 +3,9 @@ package Model;
 import jakarta.persistence.*;
 import org.hibernate.engine.internal.Cascade;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "empleados")
 public class Empleado {
@@ -11,8 +14,10 @@ public class Empleado {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombre;
-    @ManyToOne(cascade = CascadeType.REMOVE)
+    @ManyToOne
     private Departamento dept;
+    @ManyToMany(mappedBy = "empleados")
+    private Set<Proyecto> proyectos = new HashSet<Proyecto>();
 
     public Empleado() {
     }
@@ -46,11 +51,23 @@ public class Empleado {
         this.dept = dept;
     }
 
+    public Set<Proyecto> getProyectos() {
+        return proyectos;
+    }
+
+    public void addProyecto(Proyecto proyecto) {
+        this.proyectos.add(proyecto);
+        proyecto.getEmpleados().add(this);
+    }
+
+
     @Override
     public String toString() {
         return "Empleado{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
+                ", dept=" + dept +
+                ", proyectos=" + proyectos +
                 '}';
     }
 }

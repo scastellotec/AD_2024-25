@@ -2,24 +2,25 @@ package Model;
 
 import jakarta.persistence.*;
 
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
-@Table(name = "departamentos")
-public class Departamento {
+@Table(name = "proyectos")
+public class Proyecto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombre;
-    @OneToMany
-    @JoinColumn(name = "dept_id")
-    private List<Empleado> empleados;
+    @ManyToMany
+    private Set<Empleado> empleados = new HashSet<Empleado>();
 
-    public Departamento() {
+
+    public Proyecto() {
     }
 
-    public Departamento(int id, String nombre) {
+    public Proyecto(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
@@ -40,9 +41,18 @@ public class Departamento {
         this.nombre = nombre;
     }
 
+    public Set<Empleado> getEmpleados() {
+        return empleados;
+    }
+
+    public void addEmpleado(Empleado empleado) {
+        this.empleados.add(empleado);
+        empleado.getProyectos().add(this);
+    }
+
     @Override
     public String toString() {
-        return "Departamento{" +
+        return "Proyecto{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 '}';
