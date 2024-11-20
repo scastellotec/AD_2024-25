@@ -1,0 +1,8 @@
+class java{
+  public static void main(string args[]){
+    String nombre = "nombre";
+    if (nombre.equals("apellido"){
+      System.out.println("algo");
+    }
+  }
+}
