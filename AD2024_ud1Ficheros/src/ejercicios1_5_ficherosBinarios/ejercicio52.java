@@ -8,7 +8,7 @@ public class ejercicio52 {
         FileOutputStream fOutput = new FileOutputStream("ejemplo0.dat");
         DataOutputStream dOutput = new DataOutputStream(fOutput);
 
-        dOutput.writeBoolean(false);
+        dOutput.writeBoolean(true);
         dOutput.writeInt(17);
         dOutput.writeUTF("AccesoDatos");
         dOutput.writeFloat(10.5f);
