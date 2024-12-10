@@ -1,0 +1,17 @@
+<productos>
+    <producto>
+        <id>1</id>
+        <nombre>Zapatos</nombre>
+        <precio>59.99</precio>
+    </producto>
+    <producto>
+        <id>2</id>
+        <nombre>Chaqueta</nombre>
+        <precio>120.50</precio>
+    </producto>
+    <producto>
+        <id>3</id>
+        <nombre>Camiseta</nombre>
+        <precio>25.75</precio>
+    </producto>
+</productos>
