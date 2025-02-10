@@ -1,4 +1,4 @@
 package ad.dam.Ejemplo1.Repository;
 
-public class PostRespository {
+public class PostRepository {
 }
