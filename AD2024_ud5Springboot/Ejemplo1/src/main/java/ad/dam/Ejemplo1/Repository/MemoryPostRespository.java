@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class MemoryPostRespository {
+public class MemoryPostRespository{
 
     private List<Post> posts = new ArrayList<>();
 
@@ -17,11 +17,26 @@ public class MemoryPostRespository {
         return posts;
     }
 
+    public Post getPostById(int id) {
+        Post p = posts.stream()
+                        .filter(x -> x.getId() == id)
+                        .findAny().get();
+        return p;
+    }
+
     // Will save a post that it's received as a param
     public void savePost(Post post){
         posts.add(post);
     }
 
+    public void updatePost(int id, Post p) {
+        Post pFound = getPostById(id);
+        posts.set(posts.indexOf(pFound), p);
+    }
+
+    public void deletePost(int id) {
+        posts.removeIf(post -> post.getId() == id);
+    }
 
     // Se ejecuta al incializar la clase para precargarla con datos
     @PostConstruct
@@ -33,11 +48,5 @@ public class MemoryPostRespository {
         posts.add(new Post(5, "Book Recommendations", "I've been reading some fantastic books lately. In this post, I'll recommend a few that I think you'll love."));
         posts.add(new Post(6, "Fitness Journey", "Staying fit is important to me. I'll share my fitness routine and some tips for maintaining a healthy lifestyle."));
         posts.add(new Post(7, "Reflections on Life", "Sometimes, it's good to pause and reflect on life. In this post, I'll share some of my thoughts and insights."));
-    }
-
-    public void updatePost(int id, Post p) {
-    }
-
-    public void deletePost(int id) {
     }
 }

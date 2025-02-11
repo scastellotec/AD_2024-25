@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e74d24f-3ddf-4dd0-96b0-239609144e58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ad/APItienda/Producto/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ad/APItienda/Producto/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ad/APItienda/Producto/ProductoRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumno/Alumno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/Alumnos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/src/Alumno3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/src/Alumnos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Alumnos/src/Alumnos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/DamUDPSinHilos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/FiltraLenguajes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/Repaso1T_aleatorio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/empleados.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/empleados.random" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/src/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_aleatorio/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/Repaso1T_caracteres.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/codigo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/codigoFinal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/ejemplo0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/garage.random" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/garaje.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/numeros.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/palabraLarga.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/personas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/personas2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/contadorBytes/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/examenMetodos/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/examenMetodos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/leerNumerosMedia/LeerNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/palabraMasLarga/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/quitarTabuladores/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/xmlPersonas/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/Repaso1T_caracteres/src/xmlPersonas/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/StreamsEjemplo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/StreamsEjemplo/src/StreamsEjemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/ejercicios-java1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud3ORM/ejercicios-java1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/filosofos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud3ORM/sinPredicate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud4MongoDb/src/main/java/ejercicioBlog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud4MongoDb/src/main/java/ejercicioBlog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Controller/MiControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Controller/MiControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5BlogJPAMySQL/src/main/java/ad/apirest/BlogJPAMySQL/Repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Controller/MiControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Controller/MiControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Controller/MiControlador_Viejo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Controller/MiControlador_Viejo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/JdbcPostRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/JdbcPostRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/MemoryPostRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/MemoryPostRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/Ejemplo1/src/main/java/ad/dam/Ejemplo1/Repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AD2024_ud5Springboot/demo/src/main/java/Repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eco/src/main/java/EchoCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TcpRapido/src/main/java/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TcpRapido/src/main/java/Servidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_EjercicioBlog/src/main/java/Model/Post.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DavidAsir75"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/scastellotec/AD_2024-25.git",
+    "accountId": "b1bea463-a9db-484c-85f7-562d0c6f9138"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2stcmW1TbeINqfFwsyzDSiIsHKy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApItiendaApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Sergio2024/AccesoDatos/APItienda"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ApItiendaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ad.APItienda.ApItiendaApplication" />
+      <module name="APItienda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ad.APItienda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApItiendaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e74d24f-3ddf-4dd0-96b0-239609144e58" name="Changes" comment="" />
+      <created>1739278470119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739278470119</updated>
+    </task>
+    <servers />
+  </component>
+</project>

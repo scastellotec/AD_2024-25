@@ -1,4 +1,8 @@
 package ad.dam.Ejemplo1.Repository;
 
-public class PostRepository {
-}
+import ad.dam.Ejemplo1.Model.Post;
+import org.springframework.data.repository.ListCrudRepository;
+
+public interface PostRepository extends ListCrudRepository<Post, Integer> {}
+
+

@@ -2,14 +2,14 @@ package ad.dam.Ejemplo1.Controller;
 
 import ad.dam.Ejemplo1.Model.Post;
 import ad.dam.Ejemplo1.Repository.JdbcPostRespository;
-import ad.dam.Ejemplo1.Repository.MemoryPostRespository;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-public class MiControlador {
+@RequestMapping("/api_old")
+public class MiControlador_Viejo {
 
     /*private final MemoryPostRespository postRepository;
 
@@ -18,7 +18,7 @@ public class MiControlador {
     }*/
     private final JdbcPostRespository postRepository;
 
-    public MiControlador(JdbcPostRespository postRepository) {
+    public MiControlador_Viejo(JdbcPostRespository postRepository) {
         this.postRepository = postRepository;
     }
 
