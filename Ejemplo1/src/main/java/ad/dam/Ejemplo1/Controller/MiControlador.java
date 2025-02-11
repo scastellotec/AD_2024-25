@@ -1,8 +1,8 @@
-package ad.apirest.BlogJPAMySQL.Controller;
+package ad.dam.Ejemplo1.Controller;
 
-
-import ad.apirest.BlogJPAMySQL.Model.Post;
-import ad.apirest.BlogJPAMySQL.Repository.PostRepository;
+import ad.dam.Ejemplo1.Model.Post;
+import ad.dam.Ejemplo1.Repository.PostRepository;
+import ad.dam.Ejemplo1.Service.PostService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,34 +12,34 @@ import java.util.Optional;
 @RestController
 public class MiControlador {
 
-    private final PostRepository postRepository;
+    private final PostService postService;
 
-    public MiControlador(PostRepository postRepository) {
-        this.postRepository = postRepository;
+    public MiControlador(PostService postService) {
+        this.postService = postService;
     }
 
     @GetMapping("/")
     public List<Post> getAllPosts(){
-        return postRepository.findAll();
+        return postService.getAllPost();
     }
 
     // http://localhost:8080/post?id=21
     @GetMapping("/post")
     public Optional<Post> getPostById(@RequestParam int id){
-        return postRepository.findById(id);
+        return postService.getPostById(id);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/")
     public void savePost(@RequestBody Post p){
-        postRepository.save(p);
+        postService.savePost(p);
     }
 
-   /* @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping("/post")
     public void updatePost(@RequestParam int id, @RequestBody Post p){
-        postRepository.
-    }*/
+       postService.updatePost(id, p);
+    }
 
     // Lo hago distinto para utilizar el envio de parametros en la ruta
     // http://localhost:8080/delete?id=21 Podria ser asi, pero hemos decidido hacerlo de otra forma
@@ -47,7 +47,7 @@ public class MiControlador {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/delete/{id}")
     public void deletePost(@PathVariable int id){
-        postRepository.deleteById(id);
+        postService.deletePost(id);
     }
 
 

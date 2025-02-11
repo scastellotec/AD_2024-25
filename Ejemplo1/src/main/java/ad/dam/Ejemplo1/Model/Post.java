@@ -1,15 +1,18 @@
-package ad.apirest.BlogJPAMySQL.Model;
+package ad.dam.Ejemplo1.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity(name = "articulos")
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDE   NTITY)
     private int id;
     private String titulo;
     private String mensaje;
